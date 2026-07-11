@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-50: #f6f0ff;
+  --color-brand-100: #ead9ff;
+  --color-brand-200: #d7b8ff;
+  --color-brand-300: #bd8cff;
+  --color-brand-400: #a55cff;
+  --color-brand-500: #8b2fff;
+  --color-brand-600: #7a1fe0;
+  --color-brand-700: #6417b8;
+  --color-brand-800: #4f1490;
+  --color-brand-900: #3d1170;
+
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f7f7fb;
+  color: #1c1a24;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* keep native controls readable */
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
