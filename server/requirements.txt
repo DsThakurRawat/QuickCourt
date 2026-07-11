@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+psycopg[binary]
+psycopg-pool
+pydantic[email]
+pydantic-settings
+email-validator
+python-dotenv
+pyjwt
+bcrypt
